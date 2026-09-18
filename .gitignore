@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large deep learning model weights (Exceeds GitHub's 100MB file limit)
+*.keras
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+*.pb
+*.onnx
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
